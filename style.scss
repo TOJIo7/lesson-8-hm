@@ -2,10 +2,10 @@
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-$colors: red, blue, green, yellow, black, white,aqua,#0E1734,transparent;
+$colors: red, blue, green, yellow, black,gray, white,aqua,#0E1734,transparent,lightgray;
 $borders: solid, dotted, dashed, double, none;
 $displays: flex, grid, inline, block, none;
-$aligns: start, center, end, justify, stretch, space-around, space-between;
+$aligns: start, center, end, justify, stretch, space-around, space-between, space-evenly;
 
 @for $i from 1 through 100 {
   .gap-#{$i} {
