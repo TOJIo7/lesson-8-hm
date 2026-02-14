@@ -13935,6 +13935,9 @@ header {
   max-width: 1200px;
   margin: auto;
 }
+.sc7{
+  background-color: darkblue;
+}
 
 header {
   height: 100px;
