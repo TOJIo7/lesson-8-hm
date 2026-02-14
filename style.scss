@@ -2,7 +2,7 @@
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-$colors: red, blue, green, yellow, black, gray, white,aqua,#0E1734,transparent,lightgray;
+$colors: red, blue, green, yellow, black, white,aqua,#0E1734,transparent,lightgray ;
 $borders: solid, dotted, dashed, double, none;
 $displays: flex, grid, inline, block, none;
 $aligns: start, center, end, justify, stretch, space-around, space-between, space-evenly;
@@ -98,6 +98,9 @@ $aligns: start, center, end, justify, stretch, space-around, space-between, spac
   .bg-#{$c} {
     background-color: $c;
   }
+  .bg-#{$c} {
+    box-shadow: $c;
+  }
 @each $b in $borders {
   .border-style-#{$b} {
     border-style: $b;
@@ -107,6 +110,8 @@ $aligns: start, center, end, justify, stretch, space-around, space-between, spac
     border-style: #{$b};
   }
 }
+
+
 
 @each $d in $displays {
   .d-#{$d} {
